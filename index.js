@@ -16,7 +16,7 @@ function nameToAttributes(drivers) {
 function attributesToPhrase (drivers) {
   return driver.map
     return `${driver.firstName}, ${driver.lastName}`;
-  })
+  }
 }
 
 function attributesToPhrase (driver) {
