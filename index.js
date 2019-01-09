@@ -14,12 +14,11 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase (drivers) {
-  console.log(drivers)
   return driver.map
     return `${driver.firstName}, ${driver.lastName}`;
   })
 }
 
 function attributesToPhrase (driver) {
-  
+
 }
